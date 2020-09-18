@@ -5,7 +5,7 @@ import java.util.List;
 
 
 
-// Remove all the WUBś out of a String
+// MISSION: Remove all the WUB's from the String
 
 // Brianstorm - Roadmap
   // remove WUB from WUBWUBABCWUB or RWUBWUBWUBLWUB
@@ -64,6 +64,34 @@ public class Dubstep {
 */
       } // end loop
 
+
+// Apply Spaces inbetween words
+// Output exampel: not this: RL, but this R L
+
+      for ( int i=1; i < songChars.length; i++ ) {
+/*
+        char y = '\0';
+        int x = Character.getNumericValue(y);
+        System.out.println(x);
+*/
+        // Convert index to numeric value
+        int x = Character.getNumericValue(songChars[i]);
+        int y = Character.getNumericValue(songChars[i-1]);
+
+        // apply space inbetween words
+        if (  x != -1 && y == -1 ) {
+          songChars[i-1] = ' ';
+        }
+
+      } // end loop
+/*
+      int z = Character.getNumericValue(songChars[0]);
+      System.out.println("z " +z);
+
+      if ( z == -1 ) {
+        System.out.println("firt element = space");
+      }
+*/
             // Char list to string & remove null's
             String songOut = new String(songChars);
 
@@ -71,11 +99,13 @@ public class Dubstep {
   }
 
 
-
  public static void main(String[] args) {
 
-   String Deco = SongDecoder("RWUBWUBWUBLWUB");
-   System.out.println(Deco);
+   String Deco1 = SongDecoder("WUBWUBABCWUB");
+   System.out.println(Deco1);
+
+   String Deco2 = SongDecoder("RWUBWUBWUBLWUB");
+   System.out.println(Deco2);
  }
 
 }
