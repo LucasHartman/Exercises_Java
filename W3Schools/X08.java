@@ -1,4 +1,4 @@
-public class X8 {
+public class X08 {
  public static void main(String[] args) {
 
 System.out.printf("%c %10c %5c %7c %5c %n", 'J','a', 'v', 'v', 'a');
