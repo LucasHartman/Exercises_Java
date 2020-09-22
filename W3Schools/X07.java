@@ -1,6 +1,6 @@
 import java.util.Scanner;  // Import the Scanner class
 
-public class X7 {
+public class X07 {
  public static void main(String[] args) {
 
   TableFunction();
