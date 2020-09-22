@@ -1,6 +1,6 @@
 import java.util.Scanner;  // Import the Scanner class
 
-public class X3 {
+public class X03 {
  public static void main(String[] args) {
 
   DivFunction();
