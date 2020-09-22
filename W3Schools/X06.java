@@ -1,6 +1,6 @@
 import java.util.Scanner;  // Import the Scanner class
 
-public class X6 {
+public class X06 {
  public static void main(String[] args) {
 
   OPsFunction();
