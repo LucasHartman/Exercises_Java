@@ -1,6 +1,6 @@
 import java.util.Scanner;  // Import the Scanner class
 
-public class X5 {
+public class X05 {
  public static void main(String[] args) {
 
   MulFunction();
