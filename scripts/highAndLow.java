@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class highAndLow {
     public highAndLow() {
-        System.out.println("highAndLowClass");
+        // System.out.println("highAndLow");
     }
 
     public String highAndLow(String numbers) {

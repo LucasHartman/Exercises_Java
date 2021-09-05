@@ -1,9 +1,9 @@
 package packs;
 
 
-public class PrinterTest {
-    public PrinterTest() {
-        System.out.println("PrinterTestClass");
+public class printerTest {
+    public printerTest() {
+        // System.out.println("PrinterTest");
     }
 
     public String printerError(String str) {
@@ -11,7 +11,7 @@ public class PrinterTest {
         report the number of letter that are not between a & m.
         so "abcdz" returns "1/5" */
 
-        System.out.println("PrinterTestClass");
+        // System.out.println("PrinterTestClass");
         return str;
     }
 

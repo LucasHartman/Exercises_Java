@@ -1,16 +1,19 @@
 import packs.highAndLow;
-import packs.PrinterTest;
+import packs.printerTest;
+import packs.bitCounting;
 
 public class Main {
     public static void main(String[] args) {
 
-        highAndLow myObj = new highAndLow();
-        System.out.println(myObj.highAndLow("1 2 3 -4 5") +"\n");
+        bitCounting myObj2 = new bitCounting();
+        System.out.println("\nbitCounting: " +myObj2.countBits(0101011) );
 
         // UNDER CONSTRUCTION \\
-        PrinterTest myObj1 = new PrinterTest();
-        System.out.println( myObj1.printerError("aaaxbbbbyyhwawiwjjjwwm") );
+        printerTest myObj1 = new printerTest();
+        System.out.println( "\nprinterError: " +myObj1.printerError("aaaxbbbbyyhwawiwjjjwwm") );
 
+        highAndLow myObj = new highAndLow();
+        System.out.println("\nhighAndLow: " +myObj.highAndLow("1 2 3 -4 5") );
 
     }
 }
