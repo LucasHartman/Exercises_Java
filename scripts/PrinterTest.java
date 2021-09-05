@@ -1,8 +1,8 @@
-package mypacks;
+package packs;
 
 
-public class PrinterTestClass {
-    public PrinterTestClass() {
+public class PrinterTest {
+    public PrinterTest() {
         System.out.println("PrinterTestClass");
     }
 

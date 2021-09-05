@@ -1,11 +1,11 @@
-package mypacks;
+package packs;
 
 import java.util.*;
 import java.util.Collections;
 import java.util.ArrayList;
 
-public class highAndLowClass {
-    public highAndLowClass() {
+public class highAndLow {
+    public highAndLow() {
         System.out.println("highAndLowClass");
     }
 

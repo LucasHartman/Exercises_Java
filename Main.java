@@ -1,15 +1,14 @@
-import mypacks.highAndLowClass;
-import mypacks.PrinterTestClass;
-
-// test
+import packs.highAndLow;
+import packs.PrinterTest;
 
 public class Main {
     public static void main(String[] args) {
 
-        highAndLowClass myObj = new highAndLowClass();
+        highAndLow myObj = new highAndLow();
         System.out.println(myObj.highAndLow("1 2 3 -4 5") +"\n");
 
-        PrinterTestClass myObj1 = new PrinterTestClass();
+        // UNDER CONSTRUCTION \\
+        PrinterTest myObj1 = new PrinterTest();
         System.out.println( myObj1.printerError("aaaxbbbbyyhwawiwjjjwwm") );
 
 
