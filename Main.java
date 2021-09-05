@@ -10,7 +10,8 @@ public class Main {
 
         // UNDER CONSTRUCTION \\
         printerTest myObj1 = new printerTest();
-        System.out.println( "\nprinterError: " +myObj1.printerError("aaaxbbbbyyhwawiwjjjwwm") );
+        myObj1.printerError("aaaxbbbbyyhwawiwjjjwwm");
+        //System.out.println( "\nprinterError: " +myObj1.printerError("aaaxbbbbyyhwawiwjjjwwm") );
 
         highAndLow myObj = new highAndLow();
         System.out.println("\nhighAndLow: " +myObj.highAndLow("1 2 3 -4 5") );
