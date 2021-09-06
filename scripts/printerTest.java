@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.HashSet;
 import java.util.Set;
 
-
 public class printerTest {
     public printerTest() {
         // System.out.println("PrinterTest");
@@ -31,13 +30,10 @@ public class printerTest {
         int count=0;
         for (char c : abc) { if ( set.contains(c) ) { count++; } } 
         
-        // print number of found letter
+        // print number of found letter numerator/denominator
         int size = str.length();
         System.out.println("\nprinterError: " +count +"/" +size );
     }
-
-
-
 }
 
 
